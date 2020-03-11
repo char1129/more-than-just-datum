@@ -4,17 +4,17 @@
   <meta charset="utf-8">
   <title>Playground Finder</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/grid.css" rel="stylesheet">
   <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,500,600&display=swap" rel="stylesheet">
 </head>
+
 <body>
+<div class="grid pad-0 push-0">
 
-  <div class="grid pad-0 push-0">
-
-    <div class="unit xs-1 gutter-1-2">
+  <div class="unit xs-1 gutter-1-2">
 
       <img class="logo" src="images/logo.svg" alt="">
 
@@ -22,14 +22,18 @@
         <h1>Nearest playgrounds</h1>
       </div>
 
-      <div class="push">
-        <form class="searchbar" action="#">
-          <input type="search" id="search">
-          <label title="Search">
-          <i class="icon i-24 searchicon"><svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256"><path fill="#969696" d="M166.7 42a85.6 85.6 0 1 0 0 121.1 85.5 85.5 0 0 0 0-121.1zm-20.6 100.5a56.5 56.5 0 1 1 0-79.9 56.6 56.6 0 0 1 0 79.9z"/><path fill="#969696" d="M147.419 173.705l29.415-29.415 59.814 59.814-29.415 29.415z"/></svg></i>
-        </label>
-      </form>
-      </div>
+          <div class="push">
+            <form class="searchbar" action="#">
+              <input type="search" id="search">
+              <label title="Search">
+              <i class="icon i-24 searchicon"><svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256"><path fill="#969696" d="M166.7 42a85.6 85.6 0 1 0 0 121.1 85.5 85.5 0 0 0 0-121.1zm-20.6 100.5a56.5 56.5 0 1 1 0-79.9 56.6 56.6 0 0 1 0 79.9z"/><path fill="#969696" d="M147.419 173.705l29.415-29.415 59.814 59.814-29.415 29.415z"/></svg></i>
+              </label>
+            </form>
+          </div>
+
+  </div>
+
+  <div class="unit xs-1 gutter-1-2 cards">
 
       <div class="cards">
         <h3 class="push-0">373</h3>
@@ -47,10 +51,11 @@
         <p>3.03 km</p>
       </div>
 
-    </div>
+  </div>
 
     <h2 class="giga gutter-1-2">Playgrounds in the city</h2>
 
+    <div class="unit xs-1">
     <div class="grid">
       <div class="unit xs-1 pad-l-1-2">
         <div class="table-wrapper scrollable">
@@ -344,10 +349,14 @@
                 <td>No</td>
                 <td>No</td>
               </tr>
+            </tbody>
+          </table>
 
-          </div>
+
         </div>
-      </table>
-    </div>
-  </body>
-  </html>
+        </div>
+        </div>
+        </div>
+</div>
+</body>
+</html>
