@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>More than just datum</title>
+  <title>Playground Finder</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/modules.css" rel="stylesheet">
@@ -19,14 +19,16 @@
       <img class="logo" src="images/logo.svg" alt="">
 
       <div class="wrapper">
-        <h1>Nearest Playground</h1>
+        <h1>Nearest playgrounds</h1>
       </div>
 
       <div class="push">
-        <div class="searchbar">
-          <input type="search" id="search" action="#">
+        <form class="searchbar" action="#">
+          <input type="search" id="search">
+          <label title="Search">
           <i class="icon i-24 searchicon"><svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256"><path fill="#969696" d="M166.7 42a85.6 85.6 0 1 0 0 121.1 85.5 85.5 0 0 0 0-121.1zm-20.6 100.5a56.5 56.5 0 1 1 0-79.9 56.6 56.6 0 0 1 0 79.9z"/><path fill="#969696" d="M147.419 173.705l29.415-29.415 59.814 59.814-29.415 29.415z"/></svg></i>
-        </div>
+        </label>
+      </form>
       </div>
 
       <div class="cards">
@@ -37,7 +39,7 @@
       <div class="cards">
         <h3 class="push-0">1700</h3>
         <p class="italic push-0">Distance</p>
-        <p>2.58km</p>
+        <p>2.58 km</p>
       </div>
       <div class="cards">
         <h3 class="push-0">960</h3>
@@ -343,7 +345,6 @@
                 <td>No</td>
               </tr>
 
-            </div>
           </div>
         </div>
       </table>
