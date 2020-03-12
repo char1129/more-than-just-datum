@@ -1,5 +1,17 @@
 html {
   font-family: "IBM Plex Sans", sans-serif;
+  background-color: #efefef;
+}
+
+.ddd {
+  background-color: #ddd;
+}
+
+.fff {
+  background-color: #fff;
+}
+
+.titlearea {
   background-color: #ddd;
 }
 
@@ -19,44 +31,22 @@ html {
   position: absolute;
   bottom: 1px;
   left: 10px;
-
-  /* width:10px;
-  height:10px; */
 }
 
 .logo {
   max-width: 200px;
 }
 
-
-table {
-  background-color: #fff;
-  /* width: 800px; */
-  margin: 0 auto;
+.table-wrapper table {
+  min-width: 45em;
 }
 
-.cards {
-  background-color: #efefef;
-}
-
-@media only screen and (min-width: 25em) {
-
-
-
-}
-
-@media only screen and (min-width: 38em) {
-
-
-}
-
-@media only screen and (min-width: 60em) {
-
-
-
+caption {
+  padding-left: 0;
 }
 
 @media only screen and (min-width: 90em) {
+  /* 76 */
 
   .table-wrapper {
     overflow: visible;
